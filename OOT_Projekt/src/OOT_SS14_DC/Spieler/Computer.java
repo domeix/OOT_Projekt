@@ -7,16 +7,16 @@ package OOT_SS14_DC.Spieler;
  *
  */
 
-/**Die Klasse repräsentiert einen Computerspieler. Es gibt verschiedene Schwierigkeitsgrade
+/**Die Klasse repräsentiert einen Computerspieler, Es gibt verschiedene Schwirigkeitsgrade
  * 
  * 
  *
  */
 public abstract class Computer extends Spieler {
 
-	/**Konstruktor ermöglicht parameterlose Initialisierung einer KI
+	/**Konstruktor ermöglicht parameterlose inizialisierung einer KI
 	 * 
-	 * @param name wird normalerweise von expliziter KI übergeben
+	 * @param name wird normalerweiße von explizieter KI übergeben
 	 */
     public Computer(String name){
 	    super(name,KIgenerator.getEcke(),KIgenerator.getSymbol());
