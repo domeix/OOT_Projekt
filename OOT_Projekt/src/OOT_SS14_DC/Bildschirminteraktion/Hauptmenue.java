@@ -73,7 +73,7 @@ public class Hauptmenue {
 	 */
 	public static void printMenue() {
 	    System.out.println( "~ ~ ~ ~ HAUPTMENU ~ ~ ~ ~ \n" +
-	            "~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~        \n \n" +
+	            " ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~        \n \n" +
 
 	            "------------------------------    \n" +
 	            "Geben Sie ein:                 \n" +
